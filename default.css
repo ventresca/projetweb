@@ -69,12 +69,15 @@ h1,h2,h3 {color: #994;}
 
 /* header */
 .header {
-	float: left;
+	float: center;
 	width: 640px;
-	background: url(img/header.jpg width=640px height=150px) no-repeat;
+	color: white;
+	background: url(img/header2.jpg) right no-repeat;
 	font: normal 2.4em Verdana,sans-serif;
 	line-height: 150px;
-	text-align: center;	
+	text-align: center;
+
+
 }
 
 /* structure */
