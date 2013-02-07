@@ -22,33 +22,38 @@ a {color: #682;}
 a:hover {color: #9A6;}
 
 
+/*défini :  l'image de fond, la couleur général > ici va affecter le texte, la police, et une marge en haut et en bas de 3%, 0 pour les cotes  */
 body {
 	background: #333 url(img/bg.gif);
 	color: #333;
 	font: normal 62.5% "Lucida Sans Unicode",sans-serif;
 	margin: 3% 0;
 }
-/*défini :  l'image de fond, la couleur général > ici va affecter le texte, la police, et une marge en haut et en bas de 3%, 0 pour les cotes  */
 
 
+/*espacement entre les paragraphes ou les listes
+L'unité em (unité relative) se rapporte à la taille de la police. Avec elle on peut affecter une mesure relative à la taille de police de l'élément parent. Elle permet d'avoir des feuilles de style plus facilement adaptables d'un média à un autre.*/
 p,ul {
 	padding-bottom: 1em;
 }
-/*espacement entre les paragraphes ou les listes
-L'unité em (unité relative) se rapporte à la taille de la police. Avec elle on peut affecter une mesure relative à la taille de police de l'élément parent. Elle permet d'avoir des feuilles de style plus facilement adaptables d'un média à un autre.*/
 
-ul {margin-left: 1.2em;}
+
 /*marge des sous-liste*/
+ul {margin-left: 1.2em;}
+
 
 li {list-style: none;} /* pas de style pour les 'logo' de numerotations*/
 .main li {list-style-image: url(img/li.gif);} /*ici affichage d'un petit logo pour les numerotations*/
 
-h1 {font-size: 1.2em;}
+
 /* taille police*/
+h1 {font-size: 1.2em;}
+
 
 
 
 h1,h2,h3 {color: #994;}
+
 
 /* misc */
 .clearer {clear: both;}

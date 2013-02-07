@@ -1,0 +1,125 @@
+
+/* standard elements */
+* {
+	margin: 0;
+	padding: 0;
+}
+/*couleur des liens contenus dans le texte*/
+a {color: #687;}
+
+a:hover {color: #9A0;}
+
+body {
+	background: #666 url(img/stars.gif);
+	color: #666;
+	font: normal 62.5% "Lucida Sans Unicode",sans-serif;
+}
+
+p,ul {
+	padding-bottom: 1em;
+}
+
+ul {margin-left: 1.2em;}
+/*style et puces du dernier paragraphe*/
+.main li {list-style-image: url(img/iii.jpeg);padding-left: 8px;padding-top: 15px;}
+
+h1 {font-size: 1.2em;}
+
+
+h1 {color: #664;}
+h2 {color: #994;}
+h3 {color: #333;}
+
+/* misc */
+.clearer {clear: both;}
+.main_right .padded {padding-top:25px; padding-bottom:25px;}
+.main .padded {padding: 18px 24px;}
+.meta {font-size: 0.8em; color: #666;}
+.left {float: left;}
+.right {float: right;}
+
+/* structure */
+.container {
+	font-size: 1.3em;
+	background: url(img/bgcontainer.gif) repeat-y;
+	margin: 0 auto;
+	width: 840px;
+	border: 12px solid #222;
+}
+
+/* header */
+.header {
+	float: center;
+	width: 640px;
+	color: black;
+	background: url(img/header.jpg) right no-repeat;
+	font: normal 2.4em Garamond,sans-serif;
+	line-height: 240px;
+	text-align: left;
+	vertical-align: 2cm;
+
+
+}
+
+/* structure */
+.top {
+	background: #222;
+	color: #DDD;
+	float: left;
+	font: normal 1.4em Verdana;
+	height: 50px;
+	text-align: center;
+	width: 639px;
+}
+.subnav {
+	float: right;
+	width: 160px;
+}
+.main {
+	float: left;
+	width: 480px;
+}
+.main_right {
+	float: left;
+	width: 200px;
+	color: #CCC;
+}
+
+/* sub-navigation */
+.subnav h1 {
+	background: #222;
+	color: #FF;
+	font: bold 1.1em Lucida,sans-serif;
+	line-height: 24px;
+	padding-left: 8px;
+}
+.subnav ul {margin: 0; padding: 0;}
+.subnav li {
+	border-bottom: 1px solid #696755;
+	list-style: none;
+}
+.subnav li a {
+	background: #898F;	
+	color: white;
+	display: block;
+	padding: 8px 0 8px 12px;
+	width: 148px;
+	text-decoration: none;
+}
+.subnav li a:hover {
+	background: #9C997C;
+	color: #000;
+}
+
+/* footer */
+.footer {
+	background: url(img/bgfooter.gif) repeat-x;
+	color: #CCC;
+	font-size: 0.9em;
+	line-height: 39px;
+	width: 100%;
+	text-align: center;
+}
+.footer .left,.footer .right {padding: 0 16px;}
+.footer a {color: #EEE;}
+.footer a:hover {color: #FAFCB0;}
