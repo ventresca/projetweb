@@ -9,20 +9,16 @@ Feel free to use and modify but please provide credits.
 #############################################################*/
 
 /* standard elements */
-/*défini aucune marge ni aucun espace intérieur*/
 * {
 	margin: 0;
 	padding: 0;
 }
+/*défini aucune marge ni aucun espace intérieur*/
 
-/* défini couleur des liens*/
 a {color: #682;}
 
-/*couleur des liens survolés > on le voit dans les liens sur types d'avions*/
 a:hover {color: #9A6;}
 
-
-/*défini :  l'image de fond, la couleur général > ici va affecter le texte, la police, et une marge en haut et en bas de 3%, 0 pour les cotes  */
 body {
 	background: #333 url(img/bg.gif);
 	color: #333;
@@ -30,30 +26,30 @@ body {
 	margin: 3% 0;
 }
 
-
-/*espacement entre les paragraphes ou les listes
-L'unité em (unité relative) se rapporte à la taille de la police. Avec elle on peut affecter une mesure relative à la taille de police de l'élément parent. Elle permet d'avoir des feuilles de style plus facilement adaptables d'un média à un autre.*/
 p,ul {
 	padding-bottom: 1em;
 }
 
-
-/*marge des sous-liste*/
 ul {margin-left: 1.2em;}
 
+li {list-style: none;}
+.main li {list-style-image: url(img/li.gif);}
 
-li {list-style: none;} /* pas de style pour les 'logo' de numerotations*/
-.main li {list-style-image: url(img/li.gif);} /*ici affichage d'un petit logo pour les numerotations*/
-
-
-/* taille police*/
 h1 {font-size: 1.2em;}
 
-
-
+blockquote {
+	background: #FFF;
+	border-bottom: 1px solid #EEE;
+	border-top: 1px solid #EEE;
+	color: #333;
+	display: block;
+	font-size: 0.9em;
+	margin-bottom: 1.2em;
+	padding: 6px 12px;
+}
+blockquote p {padding: 3px 0;}
 
 h1,h2,h3 {color: #994;}
-
 
 /* misc */
 .clearer {clear: both;}
