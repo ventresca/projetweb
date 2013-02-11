@@ -7,12 +7,13 @@
 /*couleur des liens contenus dans le texte*/
 a {color: #687;}
 
-a:hover {color: #9A0;}
+a:hover {color: #9A6;}
 
 body {
 	background: #666 url(img/stars.gif);
 	color: #666;
 	font: normal 62.5% "Lucida Sans Unicode",sans-serif;
+	margin: 3% 0;
 }
 
 p,ul {
@@ -21,10 +22,22 @@ p,ul {
 
 ul {margin-left: 1.2em;}
 /*style et puces du dernier paragraphe*/
-.main li {list-style-image: url(img/iii.jpeg);padding-left: 8px;padding-top: 15px;}
+li {list-style: none;}
+.main li {list-style-image: url(img/puce.gif);}
 
 h1 {font-size: 1.2em;}
 
+blockquote {
+	background: #FFF;
+	border-bottom: 1px solid #EEE;
+	border-top: 1px solid #EEE;
+	color: #333;
+	display: block;
+	font-size: 0.9em;
+	margin-bottom: 1.2em;
+	padding: 6px 12px;
+}
+blockquote p {padding: 3px 0;}
 
 h1 {color: #664;}
 h2 {color: #994;}
@@ -32,7 +45,7 @@ h3 {color: #333;}
 
 /* misc */
 .clearer {clear: both;}
-.main_right .padded {padding-top:25px; padding-bottom:25px;}
+.main_right .padded {padding: 6px 2px 6px 16px;}
 .main .padded {padding: 18px 24px;}
 .meta {font-size: 0.8em; color: #666;}
 .left {float: left;}
@@ -40,7 +53,7 @@ h3 {color: #333;}
 
 /* structure */
 .container {
-	font-size: 1.3em;
+	font-size: 1.2em;
 	background: url(img/bgcontainer.gif) repeat-y;
 	margin: 0 auto;
 	width: 840px;
@@ -49,13 +62,13 @@ h3 {color: #333;}
 
 /* header */
 .header {
-	float: center;
+	float: left;
 	width: 640px;
 	color: black;
 	background: url(img/header.jpg) right no-repeat;
 	font: normal 2.4em Garamond,sans-serif;
 	line-height: 240px;
-	text-align: left;
+	text-align: center;
 	vertical-align: 2cm;
 
 
@@ -72,7 +85,7 @@ h3 {color: #333;}
 	width: 639px;
 }
 .subnav {
-	float: right;
+	float: left;
 	width: 160px;
 }
 .main {
@@ -80,7 +93,7 @@ h3 {color: #333;}
 	width: 480px;
 }
 .main_right {
-	float: left;
+	float: right;
 	width: 200px;
 	color: #CCC;
 }
